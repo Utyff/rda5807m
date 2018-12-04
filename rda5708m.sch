@@ -1566,13 +1566,13 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="0" y1="2.5" x2="-2.7" y2="2.5" width="0.2032" layer="51"/>
 <wire x1="-2.7" y1="2.5" x2="-2.7" y2="-2.5" width="0.2032" layer="51"/>
 <wire x1="-2.7" y1="-2.5" x2="0" y2="-2.5" width="0.2032" layer="51"/>
-<pad name="1" x="2.1" y="-2.4" drill="0.7" diameter="1.27" rot="R90"/>
-<pad name="2" x="4.1" y="2.4" drill="0.7" diameter="1.27" rot="R90"/>
-<pad name="3" x="9.1" y="-2.4" drill="0.7" diameter="1.27" rot="R90"/>
+<pad name="1" x="2.1" y="-2.4" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="2" x="4.1" y="2.4" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="3" x="9.1" y="-2.4" drill="1" diameter="1.6764" rot="R90"/>
 <text x="0" y="4" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="0" y="-4.73" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<hole x="2.1" y="0" drill="0.6"/>
-<hole x="8.1" y="0" drill="0.6"/>
+<hole x="2.1" y="0" drill="1"/>
+<hole x="8.1" y="0" drill="1"/>
 </package>
 <package name="MICRO_USB-B_4.85_HORN">
 <description>&lt;p&gt;&lt;b&gt;Micro USB-B 4.85 horn&lt;/b&gt;&lt;br/&gt;
@@ -4095,7 +4095,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="10.16" y="111.76"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="BOOT0" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="BOOT0"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -4222,7 +4222,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="109.22" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="PB1" class="0">
 <segment>
 <pinref part="OLED" gate="G$1" pin="/CS"/>
 <wire x1="132.08" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
@@ -4329,7 +4329,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="12.7" y="96.52"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="PA11" class="0">
 <segment>
 <wire x1="99.06" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U4" gate="MCU" pin="PA11"/>
@@ -4338,7 +4338,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="USB" gate="G$2" pin="2"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="PA12" class="0">
 <segment>
 <wire x1="99.06" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U4" gate="MCU" pin="PA12"/>
@@ -4545,7 +4545,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="48.26" y="157.48"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="PB2" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PB2"/>
 <wire x1="50.8" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
@@ -4603,49 +4603,49 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="95.25" y="155.702" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PB8" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PB8"/>
 <wire x1="50.8" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="PA15" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PA15"/>
 <wire x1="50.8" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="PA4" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PA4"/>
 <wire x1="50.8" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="PA3" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PA3"/>
 <wire x1="50.8" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="PA2" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PA2"/>
 <wire x1="50.8" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="PA1" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PA1"/>
 <wire x1="50.8" y1="12.7" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="PA0" class="0">
 <segment>
 <pinref part="U4" gate="MCU" pin="PA0"/>
 <wire x1="50.8" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="ANT" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="FMIN"/>
 <wire x1="15.24" y1="106.68" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
